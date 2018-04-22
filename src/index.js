@@ -1,14 +1,6 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
+import Router from "./components/Router";
+import "./css/style.css";
 
-import StorePicker from './components/StorePicker';
-
-class App extends Component {
-  render () {
-    return (
-      <StorePicker />
-    )
-  }
-}
-
-render(<App />, document.querySelector('#main'));
+render(<Router />, document.querySelector("#main"));
