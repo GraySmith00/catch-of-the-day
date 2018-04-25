@@ -38,7 +38,7 @@ class Order extends React.Component {
               <CSSTransition
                 classNames="count"
                 key={count}
-                timout={{ enter: 500, exit: 500 }}
+                timeout={{ enter: 500, exit: 500 }}
               >
                 <span>{count}</span>
               </CSSTransition>
